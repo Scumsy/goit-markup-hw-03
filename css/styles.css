@@ -60,15 +60,20 @@ img {
   align-items: center;
 }
 .header {
-  padding-top: 24px;
-  padding-bottom: 25px;
   border-bottom: 1px solid #ececec;
+}
+.nav {
+  margin-left: 93px;
 }
 .nav-section {
   display: flex;
 }
 .nav-section {
-  margin-left: 93px;
+}
+.nav-item {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .nav-item:not(:last-child) {
   margin-right: 50px;
@@ -173,6 +178,9 @@ img {
   color: var(--title-color);
   margin-bottom: 50px;
 }
+.what-doing {
+  padding-top: 0;
+}
 .what-doing-list {
   display: flex;
   margin-left: -30px;
@@ -192,7 +200,6 @@ img {
 .team-item {
   flex-basis: calc((100%-4 * 30px) / 4);
   margin-left: 30px;
-  padding-bottom: 30px;
 }
 .name-title {
   font-weight: 500;
@@ -200,7 +207,7 @@ img {
   line-height: 1.2;
   text-align: center;
   color: var(--title-color);
-  margin-top: 30px;
+
   margin-bottom: 10px;
 }
 .work-position {
@@ -208,12 +215,16 @@ img {
   line-height: 1.2;
   text-align: center;
 }
+.team-sub {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 
 /* PORTFOLIO PAGE STYLES */
 .btn-list {
   display: flex;
   justify-content: center;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 .btn-item:not(:last-child) {
   margin-right: 8px;
