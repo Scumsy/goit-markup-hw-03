@@ -72,19 +72,21 @@ img {
 }
 .nav-item {
   display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  
 }
 .nav-item:not(:last-child) {
   margin-right: 50px;
 }
 .nav-links {
+  display: block;
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--title-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .current {
   color: var(--link-color);
@@ -238,6 +240,8 @@ img {
   cursor: pointer;
   background-color: #f5f4fa;
   color: var(--title-color);
+  padding: 6.56px 22.11px ;
+ 
 }
 .filter-btn:hover,
 .filter-btn:focus {
